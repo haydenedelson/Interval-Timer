@@ -5,4 +5,4 @@ Creates a terminal-based interval timer, using custom audio output functions and
 Pydub requires Python3.7
 
 ## Usage
-![Inline Usage Example](Interval-Timer/Content/Timer Usage.png)
+![Inline Usage Example](/Content/Timer Usage.png)
