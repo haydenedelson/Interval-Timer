@@ -3,9 +3,13 @@ def check_input(input):
     Verify that the user entered a _positive_ integer input
     """
     check = True
-    for i in range(len(input)):
-        if input[i] < '0' or input[i] > '9':
-            check = False
+    
+    if len(input) == 0:
+        check = False
+    else:
+        for i in range(len(input)):
+            if (input[i] < '0') or (input[i] > '9'):
+                check = False
 
     return check
 
