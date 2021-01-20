@@ -15,7 +15,7 @@ def check_input(input):
 
 def convert_to_seconds(interval_length_list):
     """
-    Convert interval legnth, passed as hr:min:sec string, to seconds
+    Convert interval legnth, passed as list of [hr, min, sec] values, to seconds
     """
     # Convert interval length to seconds
     length_in_seconds = 0
